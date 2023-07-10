@@ -1,0 +1,77 @@
+.conteiner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 100vh;
+}
+
+.userTable {
+	width: 90%;
+	border-collapse: collapse;
+}
+
+.userTable th,
+.userTable td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+}
+
+.userTable th {
+	background-color: #eeee;
+}
+
+.Clink{
+	/* border: 1px solid black; */
+	display: flex;
+	/* width: 80vh; */
+	align-items: center;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contenedorTitulo{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bolder;
+	margin: 10px;
+	margin-bottom: 20px;
+
+}
+
+.titulo{
+	border-bottom: 1px solid black;
+    display: flex;
+}
+
+.estados{
+	font-weight: bolder;
+	font-size: large;
+}
+
+.link {
+	margin-top: 2%;
+	margin-left: 2.5%;
+	padding: 3px 10px;
+
+
+	text-decoration: none;
+
+	border: 1px solid black;
+	border-radius: 5px;
+
+	width: fit-content;
+
+	background-color: #eeee;
+	font-size: 20px;
+}
+
+.link:hover{
+	font-size: 22px;
+	box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.2);
+}

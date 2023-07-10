@@ -1,0 +1,21 @@
+.img {
+  width: 60px;
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+.scroll{
+  --bs-scroll-height: 100px;
+}
+
+.publicar{
+  background-color: transparent;
+  border: transparent;
+  margin-top: 7px;
+  margin-left: 10px;
+
+}
+
+.publicar:hover{
+  color: #eeee;
+}

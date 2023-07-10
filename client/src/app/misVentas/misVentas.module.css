@@ -1,0 +1,81 @@
+.userTable {
+    width: 99%;
+    border-collapse: collapse;
+}
+
+.tabla{
+    margin: 0px 30px;
+    margin-bottom: 25px;
+}
+
+.userTable th,
+.userTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.userTable th {
+    background-color: white;
+}
+
+
+.container {
+    background-color: #eeee;
+    padding: 20px;
+}
+
+.Clink{
+    /* border: 1px solid; */
+    display: flex;
+
+    height: 3em;
+    
+}
+
+.userTable { 
+    margin: 20px 0;
+}
+
+.despachadoRow {
+    background-color: green;
+    color: white;
+}
+
+.contenedorTitulo{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bolder;
+
+}
+
+.titulo{
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+
+.link {
+	margin-top: 2%;
+	margin-left: 2.5%;
+	padding: 3px 10px;
+
+
+	text-decoration: none;
+
+	border: 1px solid black;
+	border-radius: 5px;
+
+	width: fit-content;
+
+	background-color: #eeee;
+	font-size: 20px;
+}
+
+.link:hover{
+	font-size: 22px;
+	box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
