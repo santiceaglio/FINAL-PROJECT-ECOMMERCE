@@ -27,7 +27,7 @@ const Landing = () => {
   // console.log(data);
   if (isLoading || isFetching) {
     return <div>
-      <Loader/>
+      {/* <Loader/> */}
     </div>
   }
   if (error) {
